@@ -7,14 +7,14 @@ const gulp = require('gulp'),
     cleanCSS = require('gulp-clean-css');
 
 
-gulp.task('server', () => {
+/*gulp.task('server', () => {
     browser({
         server: {
             baseDir: 'dist'
         }
     })
     gulp.watch('dist/*.html').on('change', browser.reload);
-})
+})*/
 
 gulp.task('pug', () => {
     return gulp.src('src/**/*.pug')
@@ -75,4 +75,4 @@ gulp.task('js-watch', () => {
     gulp.watch('src/js/**/*.js', gulp.parallel('scripts'))
 })
 
-gulp.task('default', gulp.parallel('watch', 'js-watch', 'icons-watch', 'img-watch', 'style-watch', 'server'));
+gulp.task('default', gulp.parallel('watch', 'js-watch', 'icons-watch', 'img-watch', 'style-watch', /*'server'*/));
