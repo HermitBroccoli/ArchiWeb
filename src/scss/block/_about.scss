@@ -1,0 +1,46 @@
+.about {
+    padding: 76px 0 0 0;
+
+    &-wrapper {
+        display: flex;
+        align-items: center;
+    }
+
+    &__img {
+        max-width: 735px;
+        margin: 0 87px 100px 0;
+
+        img {
+            width: 100%;
+        }
+    }
+
+
+    &__title {
+        font-family: 'Playfair Display';
+        font-size: 51px;
+        font-weight: 800;
+        line-height: 60px;
+        color: #2F2E2E;
+        margin-bottom: 27px;
+    }
+
+    &__desrc {
+        font-family: 'Playfair Display';
+        font-size: 31px;
+        line-height: 36px;
+        color: #2F2E2E;
+        margin-bottom: 36px;
+    }
+
+    &-link {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        color: #2F2E2E;
+        text-decoration: none;
+    }
+
+}

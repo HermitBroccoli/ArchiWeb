@@ -1,0 +1,63 @@
+doctype html
+html(lang="ru")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title ArchiWeb
+        link(rel="stylesheet", href="css/app.min.css")
+    body 
+        header.header 
+            .container.header-wrapper
+                h1.header__title ArchiWeb 
+
+                .header-lists 
+                    nav 
+                        ul.header-list
+                            li.header-item 
+                            a(href="#").header-link Home 
+                            li.header-item 
+                            a(href="#").header-link  Project
+                            li.header-item
+                            a(href="#").header-link  About
+                            li.header-item
+                            a(href="#").header-link  Contact
+                        
+        .main 
+            .container.main-wrapper 
+                img(src="img/bg/home.png", alt="item").main__img
+                .main__descr 
+                    h2.main-title Best Solution For<br>Your Home
+                    .main__text Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit ut<br>aliquam, purus sit amet 
+                .main-button 
+                    .main-button__prev: img(src="icons/arrow_prev.svg", alt="prev")
+                    .main-button__next: img(src="icons/arrow_next.svg", alt="next")
+        
+        .ourservise 
+            .container.ourservise-wrapper 
+                h2.ourservise__title Our Services
+                .ourservise-items
+                    .ourservise-item 
+                        .ourservise-item__img: img(src="icons/file.svg", alt="item")
+                        h2.ourservise__title Planning
+                        .ourservise__desrc Our Services Line one<br>Servive line two
+                    .ourservise-item 
+                        .ourservise-item__img: img(src="icons/home.svg", alt="item")
+                        h2.ourservise__title Interior
+                        .ourservise__desrc Our Services Line one<br>Servive line two
+                    .ourservise-item 
+                        .ourservise-item__img: img(src="icons/stylus.svg", alt="item")
+                        h2.ourservise__title Exterior
+                        .ourservise__desrc Our Services Line one<br>Servive line two
+
+        .about
+            .container.about-wrapper 
+                .about__img: img(src="img/home2.png", alt="plan")
+                .about__text 
+                    h2.about__title About Us
+                    .about__desrc Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit ut<br>aliquam, purus sit amet luctus<br>venenatis, lectus magna fringilla<br>urna, porttitor
+                    a(href="#").about-link Read more 
+
+
+        script(src="js/app.js") 
+            

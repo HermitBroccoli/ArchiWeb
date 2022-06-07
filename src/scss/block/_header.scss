@@ -1,0 +1,37 @@
+.header {
+
+    padding: 47px 0 0 0;
+
+    &-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &-title {
+        font-weight: 900;
+        font-size: 42px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    &-list {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    &-link {
+        text-decoration: none;
+        color: #2F2E2E;
+    }
+
+    &-item {
+        margin-right: 106px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}

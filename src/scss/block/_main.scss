@@ -1,0 +1,56 @@
+.main {
+    min-height: 739px;
+    padding: 91px 0 0 0;
+
+    &-wrapper {
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    &__img {
+        max-width: 1150px;
+    }
+
+    &-title {
+        font-size: 51px;
+        line-height: 60px;
+        color: #2F2E2E;
+        line-height: 60px;
+        padding: 0 0 10px 0;
+    }
+
+    &__text {
+        font-family: 'Inter';
+        font-weight: 200;
+        font-size: 32px;
+        line-height: 39px;
+        color: #2F2E2E;
+    }
+
+    &__descr {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        background: linear-gradient(91.1deg, rgba(244, 246, 245, 0.9) -7.89%, rgba(255, 255, 255, 0.9) 132.55%);
+        width: 691px;
+        min-height: 550px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 0 0 100px;
+    }
+
+    &-button {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 162px;
+        height: 56px;
+        background: rgba(244, 246, 245, 0.7);
+    }
+}

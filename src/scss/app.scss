@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    font-family: 'Playfair Display', serif;
+}
+
+// libs
+@import 'libs/bootstrap-grid.min';
+@import 'libs/bootstrap-reboot.min';
+
+//block
+@import 'block/header';
+@import 'block/main';
+@import 'block/title';
+@import 'block/ourservise';
+@import 'block/about';
