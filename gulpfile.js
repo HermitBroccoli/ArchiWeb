@@ -40,7 +40,7 @@ gulp.task('style', () => {
             compatibility: 'ie8'
         }))
         .pipe(gulp.dest('dist/css'))
-        .pipe(browser.stream());
+        /*.pipe(browser.stream());*/;
 
 })
 
