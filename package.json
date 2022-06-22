@@ -20,6 +20,7 @@
     "sass": "^1.52.2"
   },
   "dependencies": {
+    "@splidejs/splide": "^4.0.7",
     "browser": "^0.2.6",
     "plugin": "^0.3.3",
     "sync": "^0.2.5"

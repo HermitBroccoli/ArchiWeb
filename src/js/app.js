@@ -1,1 +1,2 @@
-console.log('1233');
+import { Splide } from "@splidejs/splide";
+
